@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme{
+    --spacing-sp1:calc(100vh - 59px);
+}
