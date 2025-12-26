@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full bg-white shadow-md px-6 md:px-16 py-4 flex justify-between items-center">
       <h1 className="text-xl font-bold text-purple-800">
-        ProCourses
+        procourse
       </h1>
 
       <ul className={(shownav ? "max-md:hidden" : "max-md:flex-col max-md:h-sp1 max-md:bg-white max-md:fixed max-md:top-15 max-md:right-0 max-md:px-4 max-md:shadow-md") + " flex gap-6 items-center"}>
         <li>
           <NavLink
-            to="/procourses/home"
+            to="/procourse/home"
             className={({ isActive }) =>
               isActive ? "text-purple-800 font-semibold" : "text-gray-600"
             }
@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <li>
           <NavLink
-            to="/procourses/courses"
+            to="/procourse/courses"
             className={({ isActive }) =>
               isActive ? "text-purple-800 font-semibold" : "text-gray-600"
             }
@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <li>
           <NavLink
-            to="/procourses/cart"
+            to="/procourse/cart"
             className={({ isActive }) =>
               isActive ? "text-purple-800 font-semibold" : "text-gray-600"
             }
@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
           ) : (
             <NavLink
-              to="/procourses/login"
+              to="/procourse/login"
               className={({ isActive }) =>
                 isActive ? "text-purple-800 font-semibold" : "text-gray-600"
               }

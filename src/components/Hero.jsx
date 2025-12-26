@@ -10,7 +10,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-8">
-          ProCourses is an online learning platform designed to help you master
+          procourse is an online learning platform designed to help you master
           in-demand skills, build real projects, and grow your career with confidence.
         </p>
 

@@ -12,7 +12,7 @@ const CourseCard = ({ course }) => {
 
   const handleAddToCart = () => {
     if (!isLoggedIn) {
-      navigate("/procourses/login");
+      navigate("/procourse/login");
       return;
     }
     addToCart(course);
@@ -41,7 +41,7 @@ const CourseCard = ({ course }) => {
 
       <div className="flex gap-3 mt-6">
         <Link
-          to={`/procourses/courses/${course.id}`}
+          to={`/procourse/courses/${course.id}`}
           className="flex-1 text-center py-2 rounded-xl border border-purple-700 text-purple-700 hover:bg-purple-700 hover:text-white transition"
         >
           View Details

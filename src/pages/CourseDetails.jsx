@@ -12,7 +12,7 @@ const CourseDetails = () => {
 
   const handleAddToCart = () => {
     if (!isLoggedIn) {
-      navigate("/procourses/login");
+      navigate("/procourse/login");
       return;
     }
     addToCart(course);

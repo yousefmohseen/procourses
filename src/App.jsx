@@ -13,12 +13,12 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/procourses/" element={<Navigate to="/procourses/home" replace />} />
-        <Route path="/procourses/home" element={<Home />} />
-        <Route path="/procourses/courses" element={<Courses />} />
-        <Route path="/procourses/courses/:id" element={<CourseDetails />} />
-        <Route path="/procourses/cart" element={<Cart />} />
-        <Route path="/procourses/login" element={<Login />} />
+        <Route path="/procourse/" element={<Navigate to="/procourse/home" replace />} />
+        <Route path="/procourse/home" element={<Home />} />
+        <Route path="/procourse/courses" element={<Courses />} />
+        <Route path="/procourse/courses/:id" element={<CourseDetails />} />
+        <Route path="/procourse/cart" element={<Cart />} />
+        <Route path="/procourse/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
